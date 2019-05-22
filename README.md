@@ -6,11 +6,11 @@ This repository aims to be a collection of the various information about EKS in 
 
 ## Features
 
-### Alpha / Beta / Stable
+### When will Feature <x> be supported?
 
-The "official" stance of AWS is that features will only be supported 
+The "official" stance of AWS is that features will only be supported once they hit the "Beta" gate. See [https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/](Kubernetes Feature Gates) for more information about the various features.
 
-### PodSecurityPolicy (Beta 1.13)
+### PodSecurityPolicy (Beta in 1.13)
 
 Resource technically supported but AdmissionController will not be enabled until 1.13:
 
